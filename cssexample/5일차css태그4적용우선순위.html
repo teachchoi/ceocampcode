@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <style>
+  	#my-box .text{ color: black }
+  	.black{ color: red }
+  	.important-black{ color: red !important }
+  </style>
+  </head>
+
+  <body>
+
+    <div id="my-box">
+  		<div class="text">My text 1</div>
+  		<div class="text black">My text 2</div>
+  		<div class="text important-black">My text 3</div>
+  	</div>
+
+  </body>
+</html>
+
+<!--!important
+우선순위를 무시하고, 꼭 적용 시키고 싶은 속성이 있다면, 속성 값 뒤에 !important 를 붙여서 적용시켜주면 됩니다.
+
+.normal { color: blue }
+.compulsion{ color: black !important }
+!important 는 우선순위 뿐만 아니라 디자이너-개발자간 커뮤니케이션시 중요한 속성임을 알리는 뜻을 나타내기도 합니다.-->
